@@ -29,7 +29,7 @@
 }
 
 .tree li:before {
-    outline: solid 1px #666;
+    outline: solid 1px black;
     content: "";
     left: 0;
     position: absolute;
@@ -47,7 +47,7 @@
 
 .tree code,
 .tree span {
-    border: solid .1em #666;
+    border: solid .1em black;
     border-radius: .2em;
     display: inline-block;
     margin: 0 .2em .5em;
@@ -58,7 +58,7 @@
 .tree ul:before,
 .tree code:before,
 .tree span:before {
-    outline: solid 1px #666;
+    outline: solid 1px black;
     content: "";
     height: .5em;
     left: 50%;
